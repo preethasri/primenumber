@@ -11,7 +11,7 @@ function welcome()
 function userdata()
 {
    var username=readline.question("hii your sweet name please..\n");
-  console.log("hello"+username)
+  console.log("hello",''+username)
   var birthdate=readline.question("please enter your birth date\n");
   var birthmonth=readline.question("please enter your birth month\n");
   var userans= birthdate+birthmonth;
